@@ -68,6 +68,10 @@ namespace _40kDamageCalculator
         {
             return guntype.rend;
         }
+        public int getGunStr()
+        {
+            return guntype.str;
+        }
         public int getDamage()
         {
             return guntype.damage;

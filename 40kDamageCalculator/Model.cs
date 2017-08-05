@@ -13,6 +13,7 @@ namespace _40kDamageCalculator
         int BSS { get; set; }
         int toughS { get; set; }
         int getSave(int rend);
+        int getGunStr();
         int getDamage();
         int getGunRend();
         int getShots();

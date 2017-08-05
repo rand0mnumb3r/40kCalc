@@ -14,7 +14,7 @@ namespace _40kDamageCalculator
             //weapon damage * Hit chance * wound chance * save chance
             double damage = first.getDamage();
             double hitChance = calculateBS(first.BSS);
-                double woundChance = strToughConv(first.strr, second.toughS);
+                double woundChance = strToughConv(first.getGunStr(), second.toughS);
                 double saveFail = calculateSave(second.getSave(first.getGunRend()));
             double shots = first.getShots();
             return damage * hitChance * woundChance * saveFail * shots;

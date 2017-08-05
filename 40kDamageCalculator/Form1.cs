@@ -15,6 +15,12 @@ namespace _40kDamageCalculator
         public Form1()
         {
             InitializeComponent();
+            setupForm();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
